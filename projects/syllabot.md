@@ -209,15 +209,15 @@ Robotic Prototype/Materials Audit (Cass)
 <img width="404" alt="Example Syllabot body" src="https://github.com/user-attachments/assets/560938b2-fff0-4f05-96f1-48dfecd44094" />
 <img width="851" alt="Different interaction flows" src="https://github.com/user-attachments/assets/f1426c34-d06f-4e9d-9a0c-a835707f8431" />
 
+## Add updated front end from figma
+## Add gif/video of moving prototype
+## Code snippet from Kai
+## Ethical implications, and a societal implications section (1-2 paragraphs)
+## Evaluation Plan: A 1 pager about what you wish to evaluate, what data needs to be collected to evaluate this, and how you will conduct this evaluation.Trials with children 6-10 years old.
+## Findings (if any)
+## Next steps
 
 
-## Midterm reflection
-
-Melody: I'm glad we gathered feedback from parents before starting the design phase of our project. I'm curious to see how all the secondary research and perspectives come together as we develop the prototype for the trial with participating parents and children.
-
-Cass:
-
-Kai: 
 
 
 
