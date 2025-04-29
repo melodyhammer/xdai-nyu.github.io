@@ -29,6 +29,17 @@ _“Many children struggle with focus and comprehension when learning through st
 ### 3. Embodied Cognition for Active Learning
 _“Young children benefit from physical interaction as part of the learning process, particularly those with short attention spans or sensory learning preferences. Encouraging movement through embodied cognition—such as acting out stories—reinforces literacy skills by linking learning to muscle memory and increasing sustained engagement.”_
 
+## Ethical Considerations
+
+Personalization Bias: While personalizing the reading experience according to learner knowledge, preferences, and needs is one of the main features of Syllabot, there is possibility for this design feature to create stereotype threat. For example, if there is a learner who becomes aware of their learning differences due to the way their progress in the app is presented, this might create anxiety that inadvertently negatively affects their performance and reinforces their differences. It is important that we present feedback at the right time and in positive ways so that this doesn't happen.
+
+Privacy: Our personalization feature also involves collecting and interpreting a large amount of learner data. This data will be kept locally in order to maintain learner profiles on Syllabot, but at any point the parent/guardian can delete this data and/or choose to use default learner profiles to maintain anonymity. Syllabot will ask the learner during setup if they consent to having their information collected in order to personalize their experience.
+
+Accessibility: Syllabot also incorporates many sensory and input channels into the learning experience: vision, audio, speech, gesture, and touch. The main version of the experience relies on the integration of these channels, but this introduces accessibility issues if the learner cannot interact in these ways (e.g., they are deaf or cannot move their body). Thus there will also be settings to include or remove various input channels in order to make the learning experience more accessible.
+
+Emotional impact: The customizable anthropormorphic quality of the Syllabot body makes it possible for students to form more intense emotional connections with the device. While we hypothesize this can increase engagement in the learning experience, it can also be considered an ethically questionable design choice because there is potential for issues with the device to be interpreted as harm/pain and cause emotional distress. We combat this by implementing a robotic-sounding voice that Syllabot uses to communicate with the user, hopefully offsetting its other anthropomorphic and emotional qualities.
+
+
 ## Moodboards
 <img width="877" alt="Moodboard 1" src="https://github.com/user-attachments/assets/456b2d24-952c-4385-a93e-af460ac14f55" />
 
@@ -199,6 +210,23 @@ Mel to fill out (post 3/10)
 ## Storyboarding & Prototyping
 <img width="1496" alt="Melody's mood board" src="https://github.com/user-attachments/assets/d46b8492-a583-41c9-a95b-6870774395b1" />
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Syllabot Prototype</title>
+</head>
+<body>
+  <h1>Syllabot Prototype</h1>
+  <iframe 
+    style="border: 1px solid rgba(0, 0, 0, 0.1);" 
+    width="800" 
+    height="450" 
+    src="https://embed.figma.com/design/mdJivOkFIpEoHL1E23oelc/Syllabot?node-id=209-318&embed-host=share" 
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
 
 AI Prototype (Kai)
 
@@ -210,19 +238,8 @@ Robotic Prototype/Materials Audit (Cass)
 <img width="851" alt="Different interaction flows" src="https://github.com/user-attachments/assets/f1426c34-d06f-4e9d-9a0c-a835707f8431" />
 
 
-
-## Ethical Considerations
-
-Personalization Bias: While personalizing the reading experience according to learner knowledge, preferences, and needs is one of the main features of Syllabot, there is possibility for this design feature to create stereotype threat. For example, if there is a learner who becomes aware of their learning differences due to the way their progress in the app is presented, this might create anxiety that inadvertently negatively affects their performance and reinforces their differences. It is important that we present feedback at the right time and in positive ways so that this doesn't happen.
-
-Privacy: Our personalization feature also involves collecting and interpreting a large amount of learner data. This data will be kept locally in order to maintain learner profiles on Syllabot, but at any point the parent/guardian can delete this data and/or choose to use default learner profiles to maintain anonymity. Syllabot will ask the learner during setup if they consent to having their information collected in order to personalize their experience.
-
-Accessibility: Syllabot also incorporates many sensory and input channels into the learning experience: vision, audio, speech, gesture, and touch. The main version of the experience relies on the integration of these channels, but this introduces accessibility issues if the learner cannot interact in these ways (e.g., they are deaf or cannot move their body). Thus there will also be settings to include or remove various input channels in order to make the learning experience more accessible.
-
-Emotional impact: The customizable anthropormorphic quality of the Syllabot body makes it possible for students to form more intense emotional connections with the device. While we hypothesize this can increase engagement in the learning experience, it can also be considered an ethically questionable design choice because there is potential for issues with the device to be interpreted as harm/pain and cause emotional distress. We combat this by implementing a robotic-sounding voice that Syllabot uses to communicate with the user, hopefully offsetting its other anthropomorphic and emotional qualities.
-
-
 ## Evaluation Plan 
+**30-Minute Observational Plan for Syllabot User Testing**
 
 ### Hypotheses 
 1. A social robot for phonics learning will increase learner agency and decrease parental involvement in learning phonics.
@@ -238,7 +255,166 @@ Emotional impact: The customizable anthropormorphic quality of the Syllabot body
 1. Control group (book) and experimental group (Syllabot)
 2. Survey both students and parents of each group
 
-### Analysis
-TBD…
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Activity</th>
+      <th>What to Observe</th>
+      <th>Notes for Observer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0–5 min</td>
+      <td>Intro + Warm-Up<br>(Greeting, explain activity lightly, let them touch Syllabot)</td>
+      <td>
+        - Child’s excitement or hesitation<br>
+        - Parent’s attitude (supportive? hesitant?)<br>
+        - Ease of physical handling
+      </td>
+      <td>Light conversation, reassure it’s not a test of the child.</td>
+    </tr>
+    <tr>
+      <td>5–10 min</td>
+      <td>Dress/Customize Syllabot</td>
+      <td>
+        - How easily does the child understand dressing/customizing?<br>
+        - Is it intuitive, fun, frustrating?<br>
+        - Does parent intervene/help?
+      </td>
+      <td>Note if parts are confusing, too hard to attach, or too limited in choice.</td>
+    </tr>
+    <tr>
+      <td>10–15 min</td>
+      <td>Profile Creation (Name, Age, Picture)</td>
+      <td>
+        - How easily can child (with or without parent) enter name, age, picture?<br>
+        - Is the UI clear enough for a 6-7 y/o?<br>
+        - Parent's role: guiding or doing for them?
+      </td>
+      <td>Watch if instructions are needed or if they figure it out themselves.</td>
+    </tr>
+    <tr>
+      <td>15–20 min</td>
+      <td>Choose Story</td>
+      <td>
+        - Does the child understand story choices?<br>
+        - Is child excited that their name will appear?<br>
+        - Any confusion picking a story?
+      </td>
+      <td>Note any indecision, UI problems, or lack of interest.</td>
+    </tr>
+    <tr>
+      <td>20–25 min</td>
+      <td>Read Story + Pronunciation Check</td>
+      <td>
+        - Does the child willingly read aloud?<br>
+        - Does the AI seem to record properly?<br>
+        - How natural is the reading?<br>
+        - Parent's involvement (coaching, correcting)?
+      </td>
+      <td>Record if the child needs encouragement or if system glitches affect the reading.</td>
+    </tr>
+    <tr>
+      <td>25–30 min</td>
+      <td>Feedback + Wrap-Up</td>
+      <td>
+        - Child: Likes/dislikes about Syllabot?<br>
+        - Parent: Did they understand pronunciation results?<br>
+        - Emotional tone: proud, frustrated, confused?
+      </td>
+      <td>Ask simple questions: "What was your favorite part?" and "Was anything hard?"</td>
+    </tr>
+  </tbody>
+</table>
 
 
+## Analysis
+**Formative Evaluation Checklist** 
+<table>
+  <thead>
+    <tr>
+      <th>Goal Area</th>
+      <th>Yes</th>
+      <th>No</th>
+      <th>Partial</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Child was able to customize the physical Syllabot with minimal help.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Child created a profile with name, age, and picture successfully.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Child selected a story and recognized that their name was used in the story.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Child engaged with reading the story aloud (at least attempted).</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AI recorded the child's reading accurately without technical issues.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AI generated a clear pass/fail pronunciation assessment.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Parent understood the pronunciation results and what they mean.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Child expressed positive feelings about the experience (e.g., happy, proud).</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Parent expressed positive feelings about the experience.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Observer noted no major usability breakdowns during the session.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+**Summerative Evaluation Survey** 
+TBD
