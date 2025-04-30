@@ -34,6 +34,16 @@ _“Young children benefit from physical interaction as part of the learning pro
 
 <img width="877" alt="Moodboard 2" src="https://github.com/user-attachments/assets/0a8aa845-769d-44d5-b928-c57f9afb7632" />
 
+## Ethical Considerations
+
+Personalization Bias: While personalizing the reading experience according to learner knowledge, preferences, and needs is one of the main features of Syllabot, there is possibility for this design feature to create stereotype threat. For example, if there is a learner who becomes aware of their learning differences due to the way their progress in the app is presented, this might create anxiety that inadvertently negatively affects their performance and reinforces their differences. It is important that we present feedback at the right time and in positive ways so that this doesn't happen.
+
+Privacy: Our personalization feature also involves collecting and interpreting a large amount of learner data. This data will be kept locally in order to maintain learner profiles on Syllabot, but at any point the parent/guardian can delete this data and/or choose to use default learner profiles to maintain anonymity. Syllabot will ask the learner during setup if they consent to having their information collected in order to personalize their experience.
+
+Accessibility: Syllabot also incorporates many sensory and input channels into the learning experience: vision, audio, speech, gesture, and touch. The main version of the experience relies on the integration of these channels, but this introduces accessibility issues if the learner cannot interact in these ways (e.g., they are deaf or cannot move their body). Thus there will also be settings to include or remove various input channels in order to make the learning experience more accessible.
+
+Emotional impact: The customizable anthropormorphic quality of the Syllabot body makes it possible for students to form more intense emotional connections with the device. While we hypothesize this can increase engagement in the learning experience, it can also be considered an ethically questionable design choice because there is potential for issues with the device to be interpreted as harm/pain and cause emotional distress. We combat this by implementing a robotic-sounding voice that Syllabot uses to communicate with the user, hopefully offsetting its other anthropomorphic and emotional qualities.
+
 
 ## Secondary Research
 ### Literature Review
@@ -208,18 +218,6 @@ Robotic Prototype/Materials Audit (Cass)
 
 <img width="404" alt="Example Syllabot body" src="https://github.com/user-attachments/assets/560938b2-fff0-4f05-96f1-48dfecd44094" />
 <img width="851" alt="Different interaction flows" src="https://github.com/user-attachments/assets/f1426c34-d06f-4e9d-9a0c-a835707f8431" />
-
-
-
-## Ethical Considerations
-
-Personalization Bias: While personalizing the reading experience according to learner knowledge, preferences, and needs is one of the main features of Syllabot, there is possibility for this design feature to create stereotype threat. For example, if there is a learner who becomes aware of their learning differences due to the way their progress in the app is presented, this might create anxiety that inadvertently negatively affects their performance and reinforces their differences. It is important that we present feedback at the right time and in positive ways so that this doesn't happen.
-
-Privacy: Our personalization feature also involves collecting and interpreting a large amount of learner data. This data will be kept locally in order to maintain learner profiles on Syllabot, but at any point the parent/guardian can delete this data and/or choose to use default learner profiles to maintain anonymity. Syllabot will ask the learner during setup if they consent to having their information collected in order to personalize their experience.
-
-Accessibility: Syllabot also incorporates many sensory and input channels into the learning experience: vision, audio, speech, gesture, and touch. The main version of the experience relies on the integration of these channels, but this introduces accessibility issues if the learner cannot interact in these ways (e.g., they are deaf or cannot move their body). Thus there will also be settings to include or remove various input channels in order to make the learning experience more accessible.
-
-Emotional impact: The customizable anthropormorphic quality of the Syllabot body makes it possible for students to form more intense emotional connections with the device. While we hypothesize this can increase engagement in the learning experience, it can also be considered an ethically questionable design choice because there is potential for issues with the device to be interpreted as harm/pain and cause emotional distress. We combat this by implementing a robotic-sounding voice that Syllabot uses to communicate with the user, hopefully offsetting its other anthropomorphic and emotional qualities.
 
 
 ## Evaluation Plan 
